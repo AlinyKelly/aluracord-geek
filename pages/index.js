@@ -68,8 +68,9 @@ export default function PaginaInicial() {
             <Box
                 styleSheet={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    backgroundColor: appConfig.theme.colors.primary[500],
-                    backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2021/01/harry-potter-front-page-of-the-daily-prophet-1024x576.jpg)',
+                    //backgroundColor: appConfig.theme.colors.primary[500],
+                    //backgroundImage: 'url(https://i.ibb.co/pKSbQ6X/bg-aluracord-alinykelly3.jpg)',
+                    backgroundImage: 'url(https://i.ibb.co/zf1rKZF/bg-aluracord-alinykelly2.jpg)',
                     backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
                 }}
             >
