@@ -3,8 +3,6 @@ import React from 'react';
 import {useRouter} from 'next/router';
 import appConfig from '../config.json';
 
-
-
 function Titulo(props) {
     const Tag = props.tag || 'h1';
     return (
@@ -37,6 +35,7 @@ function Titulo(props) {
 export default function PaginaInicial() {
     //const username = 'alinykelly';
     const [username, setUsername] = React.useState(); //Me retorna duas coisas: o valor que eu preciso ver e quem eu devo avisar quando eu precisar mudar isso
+    const [followers, setFollowers] = React.useState();
     const roteamento = useRouter();
 
     return (
@@ -160,6 +159,19 @@ export default function PaginaInicial() {
                             }}
                         >
                             {username}
+                        </Text>
+
+                        <Text
+                            variant="body4"
+                            styleSheet={{
+                                color: appConfig.theme.colors.neutrals[200],
+                                backgroundColor: appConfig.theme.colors.neutrals[900],
+                                padding: '3px 10px',
+                                borderRadius: '1000px'
+                            }}
+                            
+                        >
+                            
                         </Text>
                     </Box>
                     {/* Photo Area */}
