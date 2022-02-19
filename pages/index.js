@@ -160,19 +160,6 @@ export default function PaginaInicial() {
                         >
                             {username}
                         </Text>
-
-                        <Text
-                            variant="body4"
-                            styleSheet={{
-                                color: appConfig.theme.colors.neutrals[200],
-                                backgroundColor: appConfig.theme.colors.neutrals[900],
-                                padding: '3px 10px',
-                                borderRadius: '1000px'
-                            }}
-                            
-                        >
-                            
-                        </Text>
                     </Box>
                     {/* Photo Area */}
                 </Box>
